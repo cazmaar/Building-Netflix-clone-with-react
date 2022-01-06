@@ -1,17 +1,17 @@
-import "./index.css"
+import "./index.css";
 function NavBarLeft() {
   return (
-    <div id="navbar-left" class="navbar">
-      <p id="netflix" class="item-left">
+    <div id="navbar-left" className="navbar">
+      <p id="netflix" className="item-left">
         NETFLIX
       </p>
-      <p id="browse" class="item-left">
+      <p id="browse" className="item-left">
         Browse
       </p>
-      <p id="browse" class="item-left">
+      <p id="browse" className="item-left">
         Browse
       </p>
-      <p id="dvd" class="item-left">
+      <p id="dvd" className="item-left">
         DVD
       </p>
     </div>
@@ -20,14 +20,14 @@ function NavBarLeft() {
 
 function NavBarRight() {
   return (
-    <div id="navbar-right" class="navbar">
-      <p id="search" class="item-right">
+    <div id="navbar-right" className="navbar">
+      <p id="search" className="item-right">
         Bell
       </p>
-      <p id="profile" class="item-right">
+      <p id="profile" className="item-right">
         Profile
       </p>
-      <p id="joshua" class="item-right">
+      <p id="joshua" className="item-right">
         Joshua
       </p>
     </div>
@@ -36,7 +36,7 @@ function NavBarRight() {
 
 export function Nav() {
   return (
-    <main class="Nav-sect">
+    <main className="Nav-sect">
       <NavBarLeft />
       <NavBarRight />
     </main>

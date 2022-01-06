@@ -10,12 +10,10 @@ function App() {
     <div className="App">
       <Nav />
       {heading.map((item) => {
-        return <Carosel text={item.heading} link={item.src} />;
+        return <Carosel key={item.id} text={item.heading} link={item.src} />;
       })}
     </div>
   );
 }
 
 export default App;
-
-

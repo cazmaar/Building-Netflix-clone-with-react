@@ -1,0 +1,31 @@
+.Nav-sect {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+#navbar-left {
+  margin-left: 2rem;
+}
+#navbar-right {
+  margin-right: 2rem;
+}
+
+.item-right{
+ padding-right: 1rem;
+}
+
+.item-left{
+ padding-left: 1rem;
+}
+
+#netflix{
+ color: red;
+ font-size: 1.5rem;
+}

@@ -13,10 +13,7 @@
   display: flex;
   justify-content: center;
 }
+
 .img {
   padding-left: 0.5rem;
-}
-
-#img5{
-  padding-bottom: 2rem;
 }

@@ -8,9 +8,6 @@ function NavBarLeft() {
       <p id="browse" className="item-left">
         Browse
       </p>
-      <p id="browse" className="item-left">
-        Browse
-      </p>
       <p id="dvd" className="item-left">
         DVD
       </p>
@@ -34,9 +31,10 @@ function NavBarRight() {
   );
 }
 
-export function Nav() {
+export function Nav({colo}) {
+  console.log(colo)
   return (
-    <main className="Nav-sect">
+    <main className="Nav-sect" style={{background: `${colo}`}}>
       <NavBarLeft />
       <NavBarRight />
     </main>
